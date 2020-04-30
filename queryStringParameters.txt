@@ -1,0 +1,14 @@
+###
+Make sure “Create new test event” is selected.
+Among the long list of “Event templates”, choose “Amazon API Gateway AWS Proxy”
+Name the event as “translateTest”.
+###
+
+.....
+"queryStringParameters": {
+    "review": "Hello World",
+    "target_language": "it",
+    "source_language": "auto",
+    "review_id": 1
+  }
+....
